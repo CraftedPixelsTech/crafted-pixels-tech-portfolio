@@ -1,0 +1,15 @@
+.custom-card-2 {
+    background-color: rgba(103, 133, 40, 0.7);
+    color: white;
+}
+
+.custom-btn-1 {
+    background-color: #60326f;
+    color: white;
+    border: none;
+}
+
+.custom-card-2 .btn:hover {
+    background-color: purple;
+    color: white;
+}

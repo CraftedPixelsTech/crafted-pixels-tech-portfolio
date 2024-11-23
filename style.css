@@ -1,0 +1,202 @@
+body {
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: #60326f;
+    font-size: 70px;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+
+}
+
+h2 {
+    color: #678528;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+/* div.container {
+    height: 100vh;
+} */
+
+.navbar {
+    background-color: black;
+    z-index: 1;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link.active {
+    color: white !important;
+    background-color: #678528 !important;
+}
+
+.nav-link:hover {
+    color: #678528;
+}
+
+.dropdown-menu {
+    background-color: #678528;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.svg-background {
+    position: fixed;
+    opacity: 5%;
+    z-index: -1;
+}
+
+.svg-rotate-flower {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* filter: invert(1); */
+    animation: rotating 10s linear infinite;
+    z-index: -1;
+    width: 1000px;
+}
+
+@keyframes rotating {
+    from {
+        transform: translate(50%, 50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(50%, 50%) rotate(360deg);
+    }
+}
+
+.svg-rotate-flower1 {
+    opacity: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* filter: invert(1); */
+    animation: rotating2 10s linear infinite;
+    z-index: -1;
+    width: 1000px;
+}
+
+
+@keyframes rotating2 {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.btn {
+    background-color: #678528;
+    color: white;
+
+}
+
+.grid {
+    display: grid;
+    /* change 4 to a number of dives you want to diplay in one line*/
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.align-items-center h4 {
+    margin: 0;
+}
+
+.grid>div {
+    border-radius: 50px;
+    display: flex;
+    /* Enables Flexbox */
+    justify-content: center;
+    /* Centers items vertically */
+    align-items: center;
+    /* Centers items horizontally */
+    text-align: center;
+    /* Centers the text within the div */
+    padding: 20px;
+    /* Optional: adds padding around content */
+}
+
+.grid-interests>div {
+    background-color: rgba(103, 133, 40, 0.5);
+    /* 50% opacity */
+}
+
+/*.waitingForConnection {
+    animation: blinker 1.7s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  }
+  @keyframes blinker { to { opacity: 0; } }
+  
+  .waitingForConnection2 {
+    animation: blinker2 0.6s cubic-bezier(1, 0, 0, 1) infinite alternate;  
+  }
+  @keyframes blinker2 { to { opacity: 0; } }
+  
+  .waitingForConnection3 {
+    animation: blinker3 1s ease-in-out infinite alternate;  
+  }
+  @keyframes blinker3 { to { opacity: 0; } } */
+
+/* .wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+} */
+
+/* .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+
+/* .wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/leaves-8184621_1280.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    z-index: 1;
+} */
+
+/* .form-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(image/img.png);
+} */
+
+/* .wrapper .contact-wrap {
+    position: relative;
+    z-index: 2;
+} */
+
+
+

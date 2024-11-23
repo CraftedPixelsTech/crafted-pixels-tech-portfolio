@@ -1,0 +1,22 @@
+h2 {
+    color: #7d4b8e;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center;
+}
+
+.invitations-container {
+    /* border: 3px solid #7d4b8e;
+    border-radius: 25px;
+    background-color: rgba(96, 50, 111, 0.3); */
+    align-items: center;
+}
+
+img {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

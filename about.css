@@ -1,0 +1,15 @@
+.grid-interests>div {
+    background-color: rgba(103, 133, 40, 0.5);
+    /* 50% opacity */
+}
+
+.custom-popover {
+    --bs-popover-header-bg: purple;
+    --bs-popover-bg: #b3cd68;
+}
+
+.custom-heading-color {
+    color: #4c6b15;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center;
+}
